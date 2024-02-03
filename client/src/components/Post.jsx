@@ -74,9 +74,9 @@ const Post = ({ post, postedBy }) => {
 					<Box w={1} h={'full'} bg={'gray.light'} my={2}></Box>
 					<Box position={'relative'} w={'full'}>
 						{post.replies.length === 0 && <Text textAlign={'center'}>🥱</Text>}
-						{post.replies[0] && <Avatar size={'xs'} src={post.replies[0].userprofilePic} name='Sage Adebayo' position={'absolute'} top={'0px'} left='15px' padding={'2px'} />}
-						{post.replies[1] && <Avatar size={'xs'} src={post.replies[1].userprofilePic} name='Dan Abramov' position={'absolute'} bottom={'0px'} right='-5px' padding={'2px'} />}
-						{post.replies[2] && <Avatar size={'xs'} src={post.replies[2].userprofilePic} name='Ryan Florence' position={'absolute'} bottom={'0px'} left='4px' padding={'2px'} />}
+						{post.replies[0] && <Avatar size={'xs'} src={post.replies[0].userprofilePic} name={user.name} position={'absolute'} top={'0px'} left='15px' padding={'2px'} />}
+						{post.replies[1] && <Avatar size={'xs'} src={post.replies[1].userprofilePic} name={user.name} position={'absolute'} bottom={'0px'} right='-5px' padding={'2px'} />}
+						{post.replies[2] && <Avatar size={'xs'} src={post.replies[2].userprofilePic} name={user.name} position={'absolute'} bottom={'0px'} left='4px' padding={'2px'} />}
 					</Box>
 				</Flex>
 				<Flex flex={1} flexDirection={'column'} gap={2}>

@@ -22,7 +22,7 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
 					<Flex justifyContent={'space-between'} w={'full'}>
 						<Flex w={'full'} alignItems={'center'}>
 							<Text fontSize={'sm'} fontWeight={'bold'}>
-								sirjoaogoncalves
+								joaogoncalves
 							</Text>
 							<Image src='/verified.png' ml={1} w={4} h={4} />
 						</Flex>
