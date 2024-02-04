@@ -5,26 +5,32 @@ SocialApp is more than a school project; it's a practical demonstration of my ab
 
 ## PLANNING
 
-Design and Develop UI
+Design and Develop UI:
 - Create necessary components using Chakra UI components.
 - Design and implement the user interface.
 - Add styling and responsiveness using Chakra UI.
 - Implement navigation and routing using React Router.
-Node.js + Express API
+
+Node.js + Express API:
 - Set up the server (server.js).
 - Connect to MongoDB using Mongoose and set up basic routes.
-Develop REST API Endpoints
+
+Develop REST API Endpoints:
 - Define routes for various functionalities (CRUD operations).
 - Create controllers to handle business logic for each route.
 - Implement interaction with MongoDB using Mongoose for data storage and retrieval.
-Test Your API Endpoints
+
+Test Your API Endpoints:
 - Test the API endpoints using Postman.
 - Ensure that data is being stored and retrieved correctly.
-Connect React UI with Node.js Express API
+
+Connect React UI with Node.js Express API:
+
 - Update React UI components to fetch data from the API.
 - Connect UI components to relevant API endpoints.
 - Ensure that data is being displayed correctly on the UI.
-Add Authentication
+
+Add Authentication:
 - Implement user authentication using JWT.
 - Ensure that user data is securely stored and protected.
 
