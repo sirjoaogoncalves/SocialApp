@@ -52,8 +52,6 @@ Add Authentication:
 
 - Dynamic Routing: Enabling seamless navigation between pages, ensuring a smooth and intuitive user experience.
 
-- User Authentication: Implementing robust authentication protocols, ensuring user data security.
-
 ## TECH STACK
 
 - [MongoDb]
@@ -69,7 +67,6 @@ This project to be able to run on your local machine, must have the following:
 - Node
 - npm
 - Git
-- Any editor or IDE
 
 ## RUNNING THE PROJECT
 
